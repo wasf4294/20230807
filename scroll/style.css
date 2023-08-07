@@ -1,0 +1,21 @@
+/* square1 */
+#square{background-color: dodgerblue;width: 100px;height: 100px;position: absolute;bottom: 50%;
+
+animation-name: opacityAnimation; 
+animation-duration: 1ms; 
+animation-direction: normal; 
+animation-timeline: scroll(block nearest); 
+}
+@keyframes opacityAnimation{
+    from {
+        opacity: 1;
+    }
+    to  {
+        opacity: 0;
+    }
+}
+
+#container{display: flex;justify-content: center; height: 100vh;overflow-y: scroll;position: relative;}
+
+#stretcher{height: 200vh;}
+
